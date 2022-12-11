@@ -10,16 +10,19 @@ export const Header = () => {
         top: 0;
         z-index: var(--header-z);
         border-bottom: var(--border-black);
-        background-color: var(--white);
+        // background-color: var(--white);
       `}>
         <NavLink passHref href="/">
-          <a>Auctions</a>
+          <a>Fuck</a>
         </NavLink>
         <NavLink passHref href="/list">
-          <a>List</a>
+          <a>This</a>
         </NavLink>
         <NavLink passHref href="/about">
-          <a>About</a>
+          <a>Shit</a>
+        </NavLink>
+        <NavLink passHref href="/homepage">
+          <a>Shit</a>
         </NavLink>
       </header>
     </>

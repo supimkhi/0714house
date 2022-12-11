@@ -9,4 +9,8 @@ export const PageWrapper = styled.section`
     var(--space-sm)
     var(--space-sm)
     var(--space-lg);
+  h1 {
+    background
+    color: red;
+  }
 `

@@ -1,4 +1,4 @@
-import { NFTFullPage, MediaConfiguration } from "@zoralabs/nft-components";
+import { NFTFullPage, MediaConfiguration, FullComponents } from "@zoralabs/nft-components";
 import { useRouter } from "next/router";
 import {
   MediaFetchAgent,
@@ -44,12 +44,12 @@ export default function Piece({
         style={styles}
       >
         <PageWrapper>
-          <NFTFullPage
+          {/* <NFTFullPage
             useBetaIndexer={true}
             contract={query.contract as string}
             id={query.id as string}
             initialData={initialData}
-          />
+          /> */}
         </PageWrapper>
       </MediaConfiguration>
     </>

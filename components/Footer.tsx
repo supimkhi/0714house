@@ -10,7 +10,7 @@ export const Footer = () => {
       }
     `}>
       <a target="_blank" href="https://zora.co" className="zora-branding">☼☽</a>
-      <a target="_blank" href="https://docs.zora.co">Powered by Zora</a>
+      <a target="_blank" href="khirinoirving.com">Khi Built It</a>
     </footer>
   )
 }

@@ -100,6 +100,9 @@ export default function GlobalStyles() {
           text-align: center;
           padding: var(--space-md) 0 var(--space-lg);
         }
+        .slat-h1 {
+          text-color: red;
+        }
         h2 {
           font-size: var(--text-03);
           padding: var(--space-sm) 0;
@@ -151,6 +154,7 @@ export default function GlobalStyles() {
           input {
             margin-bottom: 15px;
           }
+        
           button.zora--auction-house-actionButton {
             ${buttonStyle};
             margin-bottom: 15px;
